@@ -1,0 +1,67 @@
+@media only screen and (min-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr 6fr 1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+      ". main_content ."
+      "footer footer footer";
+    }
+
+/* --- Nav ---*/
+    .logo {
+      position: absolute;
+      left: 6vh;
+      letter-spacing: 0.3rem;
+      font-size: 2rem;
+      margin: 0;
+    }
+  
+    .nav_links {
+        display: flex !important;
+        animation: none;
+        transition: none;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        top: 0vh;
+        right: 55%;
+        height: 10vh;
+    }
+
+    .nav_links a {
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+    }
+
+    .nav_links li {
+        opacity: 100;
+    }
+
+    .burger {
+      display: none;
+    }
+
+/* --- Main - Index --- */
+    .text_container {
+      width: 30rem;
+    }
+
+/* Bootstrap cards */
+    .card_container {
+      width: 100%;
+    }
+
+/* --- Main - Medlem --- */
+    .medlem_content {
+      width: 80%;
+    }
+
+/* --- Footer --- */
+    footer {
+      height: 15vh;
+    }
+
+  }
+
+   
+

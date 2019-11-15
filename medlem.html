@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mobilestyles.css">
+    <link rel="stylesheet" href="tabletstyles.css">
+    <link rel="stylesheet" href="desktopstyles.css">
+    <script src="https://kit.fontawesome.com/89d03a09dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
+    <title>Faktura.nu</title>
+</head>
+
+<body>
+    <!-- Top Navigation menu -->
+    <nav>
+        <div class="logo">
+            <strong>FAKTURA.NU</strong>
+            <!--<a href="index.html"><strong>FAKTURA.NU</strong></a>-->
+        </div>
+        
+        <!-- Links -->
+        <ul class="nav_links">
+            <li><a href="medlem.html">Bli medlem</a></li>
+            <li><a href="#">Tjänster</a></li>
+            <li><a href="#">Logga in</a></li>
+            <li><a href="#">Om oss</a></li>
+            <li><a href="#">Partner</a></li>
+        </ul>
+        
+        <!-- Hamburger menu -->
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="grid">
+        <div class="main_content">
+            <img class="hero_image" src="media/hero_picture_medlem_text.png">
+            <div class="flexed_container">
+                <p class="medlem_heading">
+                    <strong>NYHET! Obegränsat antal fakturor helt kostnadsfritt!</strong>
+                    <div class="medlem_content">
+
+                        <p><strong>Välkommen som ny medlem till www.faktura.nu. Som ny medlem har ni möjlighet att använda
+                            verktyget helt gratis (obegränsat antal fakturor).</strong><br><br>
+
+                            När ni registrerat er som medlem kommer ni att få ett e-mail med ert lösenord som bekräftelse på
+                            ert medlemskap.<br><br>
+
+                            För att bekräfta ert medlemskap måste ni sedan logga in en gång med detta lösenord. Om ni inte
+                            gör detta kommer medlemskapet upphöra inom 14 dagar. Vi rekommenderar även att ni byter ert lösenord vid
+                            första inloggningen.<br><br>
+                        </p>
+                    </div>
+
+                    <!-- Animated form -->
+                    <forms action="/onsubmit.php">
+                        <div class="flexed_container">
+                            <div class="form">
+                                <input type="text" name="name" autocomplete="off" required />
+                                <label for="name" class="label-name">
+                                    <span class="content-name">För- och efternamn</span>
+                                </label>
+                            </div>
+                            <div class="form">
+                                <input type="text" name="name" autocomplete="off" required />
+                                <label for="name" class="label-name">
+                                    <span class="content-name">Företag</span>
+                                </label>
+                            </div>
+                            <div class="form">
+                                <input type="text" name="name" autocomplete="off" required />
+                                <label for="name" class="label-name">
+                                    <span class="content-name">E-post</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="submit_container">
+                            <span>
+                                <input type="checkbox" name="villkor" id="villkor" required>
+                                <label for="villkor">Jag godkänner de allmäna villkoren.</label><br><br></span>
+                            <input type="submit" value="BLI MEDLEM"><br>
+                        </div>
+                    </forms>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="contact">
+                <p>Kontakta oss</p>
+                <p><i class="far fa-envelope"></i> support@techation.se<br></p>
+                <p><i class="fas fa-phone-alt"></i> 0171-519 19<br></p>
+            </div>
+            <div class="copyright">
+                <p>&copy; Copyright 2019 Camilla Eriksson & Camilla Johansson med ensamrätt.
+                </div>
+        </footer>
+    </main>
+    <script type="text/javascript" src="myscripts.js"></script>
+</body>
+
+</html>

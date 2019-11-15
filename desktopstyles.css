@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1025px) {
+    .grid {
+      grid-template-columns: auto 55rem auto;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+      ". main_content ."
+      "footer footer footer";
+      }
+
+/* --- Nav ---*/
+      .logo {
+        position: absolute;
+      }
+
+      .nav_links a {
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+      }
+
+/* --- Main - both Index and Medlem --- */
+      .flexed_container {
+        margin: 2rem 0rem 1rem 0rem;
+      }
+
+/* --- Main - Index --- */      
+      .index_heading {
+        font-size: 1.3rem;
+      }
+
+/* --- Main - Medlem --- */
+      .submit_container {
+        margin-bottom: 1rem;
+      }
+
+/* --- Footer --- */           
+      footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        grid-area: footer;
+        }
+        
+      .contact {
+        display: flex !important;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 40%;
+        flex-wrap: wrap;
+      }
+
+    }
